@@ -13,6 +13,9 @@ async function bootstrap() {
     setupStaticHandlers();
   }
 
+  // Small delay to ensure fetch is intercepted before React Query fires
+  await new Promise((res) => setTimeout(res, 50));
+
   const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
   root.render(
     <React.StrictMode>
