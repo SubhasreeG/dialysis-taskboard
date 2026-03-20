@@ -8,13 +8,7 @@ async function bootstrap() {
     await worker.start({
       onUnhandledRequest: "bypass",
     });
-  } else {
-    const { setupStaticHandlers } = await import("./mocks/static");
-    setupStaticHandlers();
   }
-
-  // Small delay to ensure fetch is intercepted before React Query fires
-  await new Promise((res) => setTimeout(res, 50));
 
   const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
   root.render(
