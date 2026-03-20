@@ -18,7 +18,7 @@ Key flows covered:
 
 ## Quick Start
 ```bash
-git clone <repo-url>
+git clone https://github.com/SubhasreeG/dialysis_taskboard
 cd dialysis-taskboard
 npm install --legacy-peer-deps
 npx msw init public/
