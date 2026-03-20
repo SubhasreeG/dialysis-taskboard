@@ -100,10 +100,10 @@ One feature I added beyond the brief is a **clinical risk score** per patient, v
 
 ## UI Features
 
-- **Light / Dark mode** — toggle button fixed to the bottom left corner. Defaults to dark mode, which suits the dense clinical data layout. Light mode available for brighter environments.
-- **Collapsible patient rows** — click the `›` arrow to collapse any patient row
-- **Aggregate stats** — live overdue / today / upcoming / done counts at the top of the board update as tasks move through statuses
-- **Toast notifications** — bottom right corner shows success/failure feedback on every task update
+- **Light / Dark mode** : toggle button fixed to the bottom left corner. Defaults to dark mode, which suits the dense clinical data layout. Light mode available for brighter environments.
+- **Collapsible patient rows** : click the `›` arrow to collapse any patient row
+- **Aggregate stats** : live overdue / today / upcoming / done counts at the top of the board update as tasks move through statuses
+- **Toast notifications** : bottom right corner shows success/failure feedback on every task update
 
 ### How it works
 
